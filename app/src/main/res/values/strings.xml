@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">WGA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >LogIn/SignUp</item>
+        <item >Contact Us</item>
+        <item >Recently Viewed</item>
+        <item >Wishlist</item>
+        <item >What\'s Hot</item>
+        <item >About</item>
+        <item >Profile</item>
+    </string-array>
+
+    <!--spinnner of sort list items-->
+    <string name="sort">Sort By</string>
+<!--movies-->
+    <string-array name="sort_list">
+        <item> Sort By </item>
+        <item>A - Z</item>
+        <item>Z - A</item>
+        <item>Rating</item>
+        <item>Custom</item>
+    </string-array>
+
+<!--//restaurants-->
+    <string-array name="sort_list1">
+        <item> Sort By </item>
+        <item>A - Z</item>
+        <item>Z - A</item>
+        <item>Rating</item>
+        <item>Custom</item>
+    </string-array>
+
+
+
+    //filter
+    <string name="filter">Filter</string>
+
+    <string-array name="filter_list">
+        <item> Filter </item>
+        <item>Noida</item>
+        <item>Ghaziabad</item>
+        <item>Delhi</item>
+        <item>Gurgaon</item>
+    </string-array>
+    <string name="title_activity_check">check</string>
+    <string name="title_activity_recently_viewed_fragment">RecentlyViewedFragmentActivity</string>
+
+
+
+
+
+
+</resources>

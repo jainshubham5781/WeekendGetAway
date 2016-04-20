@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/jijikk"
+    android:orientation="vertical"
+    android:onClick="gotomovies"
+
+    android:weightSum="1"
+    android:backgroundTint="@android:color/holo_red_light"
+    android:backgroundTintMode="add">
+
+
+    <ImageView
+        android:layout_width="12036dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/wga"
+        android:shadowColor="#7000"
+        android:shadowDx="12"
+        android:shadowDy="12"
+        android:shadowRadius="8"
+        android:layout_weight="0.79" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WELCOME TO WGA"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textColorHighlight="@android:color/holo_red_light"
+        android:id="@+id/textView4"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:shadowColor="#7000"
+        android:shadowDx="12"
+        android:shadowDy="12"
+        android:shadowRadius="8"
+
+        android:textColorHint="@android:color/holo_red_light"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Click to continue >>>"
+
+        android:id="@+id/textView5"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0.34" />
+
+
+</LinearLayout>

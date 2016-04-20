@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/dsd"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".MainRestaurant" >
+
+        <!--&lt;!&ndash; Editext for Search &ndash;&gt;-->
+        <!--<EditText android:id="@+id/inputSearch"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:hint=" Search Restaurants.."-->
+            <!--android:inputType="textVisiblePassword"-->
+            <!--android:background="#fcfcfc"-->
+            <!--android:backgroundTintMode="src_in" >-->
+            <!--<requestFocus />-->
+        <!--</EditText>-->
+
+        <!--<Spinner-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:entries="@array/sort_list1"-->
+            <!--android:layout_below="@+id/inputSearch"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginLeft="40dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:id="@+id/spinner"-->
+            <!--/>-->
+
+
+        <!--<Spinner-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:entries="@array/filter_list"-->
+            <!--android:layout_below="@+id/inputSearch"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginLeft="100dp"-->
+            <!--android:layout_marginRight="40dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_toRightOf="@+id/spinner"-->
+            <!--android:id="@+id/spinner2"-->
+            <!--/>-->
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cardList2"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Veg"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"
+        android:id="@+id/button7"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button8"
+        android:layout_toStartOf="@+id/button8"
+        android:background="#2157cc" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Non Veg"
+        android:textColor="@android:color/background_light"
+        android:id="@+id/button8"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:background="#c95d8e" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="110dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Beverages"
+        android:id="@+id/button9"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_toEndOf="@+id/button8"
+        android:background="#795fd7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose Any One"
+        android:alpha="0.5"
+        android:id="@+id/textView10"
+        android:layout_alignTop="@+id/cardList2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#d2b8fb"
+    android:divider="#8b58f2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"
+        android:id="@+id/textView11" />
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<RatingBar-->
+                <!--android:layout_width="wrap_content"-->
+                <!--style="?android:attr/ratingBarStyleSmall"-->
+                <!--android:isIndicator="true"-->
+                <!--android:clickable="false"-->
+                <!--android:focusableInTouchMode="false"-->
+                <!--android:focusable="false"-->
+                <!--android:rating="5"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/ratingBar" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                <!--android:text="Small Text"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:id="@+id/textView2" />-->
+
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+
+             <!--<RatingBar-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="?android:attr/ratingBarStyleSmall"-->
+                <!--android:isIndicator="true"-->
+                <!--android:clickable="false"-->
+                <!--android:focusableInTouchMode="false"-->
+                <!--android:focusable="false"-->
+                <!--android:rating="4"-->
+                <!--android:id="@+id/ratingBar2" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                <!--android:text="Small Text"-->
+                <!--android:id="@+id/textView4" />-->
+
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+
+            <!--<RatingBar-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="?android:attr/ratingBarStyleSmall"-->
+                <!--android:clickable="false"-->
+                <!--android:focusableInTouchMode="false"-->
+                <!--android:focusable="false"-->
+                <!--android:isIndicator="true"-->
+                <!--android:rating="3"-->
+                <!--android:id="@+id/ratingBar3" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                <!--android:text="Small Text"-->
+                <!--android:id="@+id/textView5" />-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<RatingBar-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="?android:attr/ratingBarStyleSmall"-->
+                <!--android:isIndicator="true"-->
+                <!--android:clickable="false"-->
+                <!--android:focusableInTouchMode="false"-->
+                <!--android:focusable="false"-->
+                <!--android:rating="2"-->
+                <!--android:id="@+id/ratingBar4" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                <!--android:text="Small Text"-->
+                <!--android:id="@+id/textView6" />-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+             <!--<RatingBar-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/ratingBar5"-->
+                <!--style="?android:attr/ratingBarStyleSmall"-->
+                <!--android:isIndicator="true"-->
+                <!--android:clickable="false"-->
+                <!--android:focusableInTouchMode="false"-->
+                <!--android:focusable="false"-->
+                <!--android:rating="1" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                <!--android:text="Small Text"-->
+                <!--android:id="@+id/textView7" />-->
+        <!--</LinearLayout>-->
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="___________________________________________"
+        android:id="@+id/textView8"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="User Reviews:"
+        android:textStyle="bold"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:paddingBottom="40dp"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/noReview"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

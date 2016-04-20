@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/jijikk"
+    android:layout_height="match_parent"
+    android:backgroundTint="#b995e5"
+    android:backgroundTintMode="multiply">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Recently Viewed Items:"
+        android:id="@+id/textView12"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Movies"
+        android:id="@+id/button6"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#b995e5"
+        android:alpha="0.8" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Restaurants"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button10"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:background="#b995e5"
+        android:alpha=".8" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Hotels"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button11"
+        android:layout_gravity="center_horizontal"
+        android:background="#b995e5"
+        android:alpha=".8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView15"
+        android:layout_marginTop="120dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

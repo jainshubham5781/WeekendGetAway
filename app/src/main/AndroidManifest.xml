@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shubham.myapplication3" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:label="WeekendGetAway" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".movies.MainMovies"
+            android:label="Movies"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".register.SignUp"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainNavigation"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".location.LocationActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".movieDetailsSlideTabsFragment.MovieDetailsTabsFragementActivity"
+            android:label="Details"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".food.MainRestaurant"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:label="Restaurants" />
+        <activity
+            android:name=".food.restaurantDetailsSlideTabsFragment.RestaurantDetailsTabsFragementActivity"
+            android:label="Details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".recently_viewed.RecentlyViewedMovies"
+            android:label="Movies"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".recently_viewed.RecentlyViewedRestaurants"
+            android:label="Restaurants"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".wishList.MoviesWishlist"
+            android:label="Wishlist"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".wishList.RestaurantWishlist"
+            android:label="Wishlist"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".NotificationView"
+            android:screenOrientation="portrait"
+            android:label="WeekendGetAway"/>
+        <activity android:name=".hotels.MainHotels"
+            android:label="Hotels"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".recently_viewed.RecentlyViewedHotels"
+            android:label="Recently Viewed"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".wishList.HotelWishlist"
+            android:label="Wishlist"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".hotels.hotelDetailsSlideTabsFragment.HotelDetailsTabsFragementActivity"
+            android:label="Details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name=".youtube.VideoActivity"/>
+
+
+    </application>
+
+</manifest>
